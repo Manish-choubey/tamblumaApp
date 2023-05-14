@@ -1,14 +1,11 @@
-// app.js
+
 
 const Ticket = require('../model/Ticket')
 
 const { v4: uuidv4 } = require('uuid');
 
 
-// Create a ticket schema
 
-
-// Create a ticket model
 
 
 // Create a Tambula ticket
@@ -36,7 +33,7 @@ const createdTicket = async (req, res) => {
   res.json({ tickets });
 };
 
-// Fetch all tickets with pagination
+
 
 
 // Generate Tambula ticket numbers
@@ -93,7 +90,7 @@ const fetchticket = async (req, res) => {
   }
 };
 
-// Start the server
+
 
 module.exports.createdTicket = createdTicket
 module.exports.fetchticket = fetchticket
